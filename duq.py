@@ -73,7 +73,7 @@ class DUQ():
         
         self._min_bins = 5
         self._bins_step = 2
-        self._adjustments_file = "duq_adj_default.pkl"
+        self._adjustments_file = "PRECALCULATED/duq_adj_default.pkl"
         
         self.gen_adjustments()
 
@@ -206,7 +206,7 @@ class DUQ_pos(DUQ):
         
         self._min_bins = 3
         self._bins_step = 2
-        self._adjustments_file = "duqpos_adj_default.pkl"
+        self._adjustments_file = "PRECALCULATED/duqpos_adj_default.pkl"
         
     def __adj_term(self,N_bins):
         """
